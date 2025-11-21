@@ -51,7 +51,6 @@ The `requirements.txt` includes:
 - `pandas` - CSV logging and data analysis
 - `matplotlib` - Plotting and visualization
 - `imageio` - Video generation
-- `tqdm` - Progress bars
 
 ## Instructions
 
