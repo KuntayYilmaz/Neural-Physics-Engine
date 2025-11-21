@@ -5,6 +5,7 @@ A PyTorch re-implementation of the ICLR 2017 paper **"A Compositional Object-Bas
 **Paper**: [arXiv:1612.00341](https://arxiv.org/abs/1612.00341)
 
 This repository includes both the original architecture (classic NPE) and an enhanced modern version with residual connections, layer normalization, and improved training techniques.
+![Training curves](https://github.com/user-attachments/assets/3432b75c-85b1-4e1e-81a0-6250df33cf48)
 
 ## Requirements
 
