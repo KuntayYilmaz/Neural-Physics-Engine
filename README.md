@@ -11,6 +11,13 @@ This repository includes both the original architecture (classic NPE) and an enh
 
 ![Training curves](https://github.com/user-attachments/assets/3432b75c-85b1-4e1e-81a0-6250df33cf48)
 
+
+
+
+
+![Simulation Gif](https://github.com/user-attachments/assets/661fd1bd-f140-4e6b-9538-045c4ba43988)
+
+
 ## Requirements
 
 * Python 3.8+
