@@ -5,7 +5,7 @@ A PyTorch re-implementation of the ICLR 2017 paper **"A Compositional Object-Bas
 **Paper**: [arXiv:1612.00341](https://arxiv.org/abs/1612.00341)
 
 This repository includes both the original architecture (classic NPE) and an enhanced modern version with residual connections, layer normalization, and improved training techniques.
-
+## Results
 
 
 
@@ -33,8 +33,11 @@ This repository includes both the original architecture (classic NPE) and an enh
 ## Requirements
 
 * Python 3.8+
-* [PyTorch](https://pytorch.org/) (tested with 2.0+)
+* PyTorch
 * CUDA-compatible GPU (recommended for training)
+* **Windows users (optional): [Triton for Windows](https://github.com/woct0rdho/triton-windows)**  
+  If you want to keep `torch.compile(...)` enabled, you need Triton on Windows.  
+  Otherwise, comment out or remove the `torch.compile` line in the training scripts.
 
 ### Dependencies
 
@@ -92,9 +95,6 @@ python generate_dataset_4ball.py `
 **Data Format**: Each state vector contains `[x_norm, y_norm, vx_norm, vy_norm, mass]` where positions and velocities are normalized to [0,1] range. Output files are saved as PyTorch tensors with shape `[num_windows, 3, 4, 5]`.
 
 ### Training the Model
-
-If training on Windows without setting up Triton, do not use torch.compile().
-https://github.com/woct0rdho/triton-windows
 
 #### Classic NPE (Original Paper Architecture)
 
