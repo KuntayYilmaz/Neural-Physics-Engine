@@ -175,7 +175,7 @@ python compare_rollouts_classic_vs_modern.py `
   --classic_ckpt checkpoints/npe_balls_n4_t60_uniform_logged.pt `
   --modern_ckpt checkpoints/npe_modern_balls_n4_medium_adamw_cosine_200M.pt `
   --num_scenes 200 `
-  --rollout_steps 50 `
+  --rollout_steps 100 `
   --out_png figs/prediction_task_classic_vs_modern_2panels.png
 ```
 
@@ -185,4 +185,6 @@ python compare_rollouts_classic_vs_modern.py `
 2. **Relative Magnitude Error** (lower is better, min=0.0): Measures error in velocity magnitude
    - Formula: `|∥v_gt∥ - ∥v_pred∥| / ∥v_gt∥`
 
-The output is a 2-panel figure showing how these metrics degrade over 50 autoregressive timesteps.
+The output is a 2-panel figure showing how these metrics degrade over 100 autoregressive timesteps.
+
+![WhatsApp Image 2025-11-14 at 04 12 41](https://github.com/user-attachments/assets/1f3e72a3-1bc8-4e02-9a59-34f687629e6a)
