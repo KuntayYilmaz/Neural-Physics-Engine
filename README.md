@@ -9,13 +9,25 @@ This repository includes both the original architecture (classic NPE) and an enh
 
 
 
+
+
 ![Training curves](https://github.com/user-attachments/assets/3432b75c-85b1-4e1e-81a0-6250df33cf48)
 
 
 
 
 
-![Simulation Gif](https://github.com/user-attachments/assets/661fd1bd-f140-4e6b-9538-045c4ba43988)
+
+![Simulation Gif-1](https://github.com/user-attachments/assets/661fd1bd-f140-4e6b-9538-045c4ba43988)
+
+
+
+
+
+
+![Simulation Gif-2](https://github.com/user-attachments/assets/9e43263e-8ac5-4eaa-97ca-96394cef0377)
+
+
 
 
 ## Requirements
